@@ -1,0 +1,30 @@
+{
+  "name": "sabio-prework",
+  "displayName": "Sabio PreWork",
+  "description": "Code snippets to help you move through the PreWork materials at sabio",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "repository": {
+    "url": "https://github.com/sabiocode/sabio-prework.git"
+  },
+  "icon": "resources/Sabio.png",
+  "publisher": "SabioEnterprisesInc",
+  "badges": [],
+  "author": {
+    "url": "https://sabio.la",
+    "name": "Sabio Enterprises"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
